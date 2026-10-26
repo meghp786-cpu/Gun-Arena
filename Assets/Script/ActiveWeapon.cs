@@ -9,7 +9,7 @@ public class ActiveWeapon : MonoBehaviour
     {
         weapon = FindFirstObjectByType<Weapon>();
         initTime = 0;
-    }
+    }   
     private void Update()
     {
         initTime += Time.deltaTime;
@@ -21,5 +21,9 @@ public class ActiveWeapon : MonoBehaviour
                 initTime = 0;
             }
         }
+    }
+    public void SwitchWeapon(WeaponSO weaponSO)
+    {
+        Debug.Log("Weapon Changed");
     }
 }
