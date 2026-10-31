@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d42ab461214588a4cb4ce446fc8591b5, type: 3}
   m_Name: Pistol
   m_EditorClassIdentifier: 
+  EquipedWeapon: {fileID: 1301517590114971449, guid: 3e5b22323ba523f48b9849d640289822, type: 3}
   Damage: 1
   FireRate: 1

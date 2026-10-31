@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d42ab461214588a4cb4ce446fc8591b5, type: 3}
   m_Name: Sniper
   m_EditorClassIdentifier: 
+  EquipedWeapon: {fileID: 1247774183773694214, guid: c3deea5f4e283a549b80d07be735263e, type: 3}
   Damage: 5
   FireRate: 2
+  canZoom: 1
+  zoomFOV: 20

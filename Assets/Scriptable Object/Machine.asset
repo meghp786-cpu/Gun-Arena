@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d42ab461214588a4cb4ce446fc8591b5, type: 3}
   m_Name: Machine
   m_EditorClassIdentifier: 
+  EquipedWeapon: {fileID: 6749197975247568283, guid: fdf9d88475217b54396b04566efec91e, type: 3}
   Damage: 3
   FireRate: 0.2

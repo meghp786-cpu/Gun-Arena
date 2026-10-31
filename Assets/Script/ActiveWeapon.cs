@@ -13,17 +13,30 @@ public class ActiveWeapon : MonoBehaviour
     private void Update()
     {
         initTime += Time.deltaTime;
+        HandelShoot();
+    }
+
+    private void HandelShoot()
+    {
         if (Input.GetKey(KeyCode.F))
         {
-            if(initTime >= weaponSO.FireRate)
+            if (initTime >= weaponSO.FireRate)
             {
                 weapon.Shoot(weaponSO);
                 initTime = 0;
             }
         }
     }
+
     public void SwitchWeapon(WeaponSO weaponSO)
     {
         Debug.Log("Weapon Changed");
+        if (weapon)
+        {
+            Destroy(weapon.gameObject);
+        }
+        Weapon NewWeapon =Instantiate(weaponSO.EquipedWeapon,transform).GetComponent<Weapon>();
+        weapon = NewWeapon;
+        this.weaponSO = weaponSO;
     }
 }
