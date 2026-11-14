@@ -15,3 +15,6 @@ MonoBehaviour:
   EquipedWeapon: {fileID: 6749197975247568283, guid: fdf9d88475217b54396b04566efec91e, type: 3}
   Damage: 3
   FireRate: 0.2
+  magazineAmmo: 40
+  canZoom: 0
+  zoomFOV: 0

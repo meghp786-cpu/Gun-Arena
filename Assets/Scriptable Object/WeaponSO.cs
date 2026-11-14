@@ -7,6 +7,8 @@ public class WeaponSO : ScriptableObject
     public GameObject EquipedWeapon;
     public int Damage;
     public float FireRate;
+    public int magazineAmmo;
+    [Header ("Scope")]
     public bool canZoom;
     public float zoomFOV;
 }

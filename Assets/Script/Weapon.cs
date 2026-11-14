@@ -6,10 +6,11 @@ public class Weapon : MonoBehaviour
     [SerializeField] WeaponSO weaponSO;
     [SerializeField] ParticleSystem muzzleFX;
     [SerializeField] GameObject HitFX;
+    [SerializeField] LayerMask layermask;
     
     public void Shoot(WeaponSO weaponSO)
     {
-        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, Mathf.Infinity))
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, Mathf.Infinity,layermask,QueryTriggerInteraction.Ignore))
         {
             muzzleFX.Play();
             Instantiate(HitFX, hit.point, Random.rotation);

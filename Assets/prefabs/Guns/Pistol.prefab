@@ -135,6 +135,9 @@ MonoBehaviour:
   weaponSO: {fileID: 11400000, guid: 8aa9a66f14f5c92459b54f0a23915ed1, type: 2}
   muzzleFX: {fileID: 3048930491003491457}
   HitFX: {fileID: 4816587487148966704, guid: e4b079521058b1c45be36187525194f1, type: 3}
+  layermask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &1680898753951872053
 GameObject:
   m_ObjectHideFlags: 0
