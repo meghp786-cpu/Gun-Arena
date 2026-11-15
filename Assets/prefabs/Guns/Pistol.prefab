@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3914056479803184929}
   - component: {fileID: 6176243439364467657}
   - component: {fileID: 7197053273134188435}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pistol_02_Blue_Team
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4611531230117190313}
   - component: {fileID: 7275888386031722033}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Pistol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 9165005104071290908}
   - component: {fileID: 8183383944907667788}
   - component: {fileID: 5948441234401332948}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: StarDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4980,7 +4980,7 @@ GameObject:
   - component: {fileID: 7270359319885615790}
   - component: {fileID: 4765177008320092648}
   - component: {fileID: 3485830613470638649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9809,7 +9809,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6832817641539183144}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9843,7 +9843,7 @@ GameObject:
   - component: {fileID: 8683270483049782088}
   - component: {fileID: 3048930491003491457}
   - component: {fileID: 6633229995078102043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MagicMuzzleFireFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}

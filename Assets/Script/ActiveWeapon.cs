@@ -42,8 +42,7 @@ public class ActiveWeapon : MonoBehaviour
         {
             if (initTime >= weaponSO.FireRate)
             {
-                currentAmmo -= 1;
-                currentAmmoUI.text = currentAmmo.ToString("D2");
+                Changeammo(-1);
                 currentweapon.Shoot(weaponSO);
                 initTime = 0;
             }
@@ -77,5 +76,10 @@ public class ActiveWeapon : MonoBehaviour
         Weapon NewWeapon =Instantiate(weaponSO.EquipedWeapon,transform).GetComponent<Weapon>();
         currentweapon = NewWeapon;
         this.weaponSO = weaponSO;
+    }
+    public void Changeammo(int amount)
+    {
+        currentAmmo += amount;
+        currentAmmoUI.text = currentAmmo.ToString("D2");
     }
 }

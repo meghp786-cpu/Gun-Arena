@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 933052031927815195}
   - component: {fileID: 4514249452820560126}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Sniper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 582196201320640680}
   - component: {fileID: 3224786509982908367}
   - component: {fileID: 8051646217402107388}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MagicMuzzleFireFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4914,7 +4914,7 @@ GameObject:
   - component: {fileID: 7746691402340386229}
   - component: {fileID: 589933884772703722}
   - component: {fileID: 9189005662901578335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9745,7 +9745,7 @@ GameObject:
   - component: {fileID: 6630617602617426725}
   - component: {fileID: 1248808794566439666}
   - component: {fileID: 686037503494442631}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sniper_01_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9831,7 +9831,7 @@ GameObject:
   - component: {fileID: 3120443901602450050}
   - component: {fileID: 4684469556976021127}
   - component: {fileID: 8891062495125568399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: StarDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14660,7 +14660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 760968260625718341}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}

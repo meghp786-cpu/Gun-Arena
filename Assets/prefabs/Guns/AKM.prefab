@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7668262850495833906}
   - component: {fileID: 7334677553456349281}
   - component: {fileID: 8085945035982990440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: StarDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4840,7 +4840,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2566426379437682437}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4874,7 +4874,7 @@ GameObject:
   - component: {fileID: 1941256219864952390}
   - component: {fileID: 9020573629235522269}
   - component: {fileID: 2875705293858912095}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MagicMuzzleFireFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9725,7 +9725,7 @@ GameObject:
   - component: {fileID: 5984088811245221746}
   - component: {fileID: 8412015399882587114}
   - component: {fileID: 8544365133496980950}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Heavy_machine_gun_01_Blue_Team
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9810,7 +9810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1237797716965357141}
   - component: {fileID: 3857318782257928112}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: AKM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9863,7 +9863,7 @@ GameObject:
   - component: {fileID: 1839323889515156001}
   - component: {fileID: 5000582833690942693}
   - component: {fileID: 9043656371382497734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
